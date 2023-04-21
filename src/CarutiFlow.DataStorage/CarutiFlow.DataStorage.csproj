@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarutiFlow.Domain.Handler\CarutiFlow.Domain.Handler.csproj" />
+    <ProjectReference Include="..\CarutiFlow.Domain.Scheduler\CarutiFlow.Domain.Scheduler.csproj" />
+    <ProjectReference Include="..\CarutiFlow.Domain.Shared\CarutiFlow.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

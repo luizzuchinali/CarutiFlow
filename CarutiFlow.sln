@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E1F52AF-4621-44E9-AEE8-695C4BDAF768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarutiFlow.Application", "src\CarutiFlow.Application\CarutiFlow.Application.csproj", "{CF966594-925C-43A5-AA3C-24981C9B185D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarutiFlow.DataStorage", "src\CarutiFlow.DataStorage\CarutiFlow.DataStorage.csproj", "{6E6CA298-63BC-4B3F-8ABC-9DCC2D4C13C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarutiFlow.Domain.Shared", "src\CarutiFlow.Domain.Shared\CarutiFlow.Domain.Shared.csproj", "{5D072F9E-9438-4FBB-97F8-8E6A7F4B3ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarutiFlow.Domain.Scheduler", "src\CarutiFlow.Domain.Scheduler\CarutiFlow.Domain.Scheduler.csproj", "{9027B414-6F5F-4E41-A459-AC80E3F0DA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarutiFlow.Domain.Handler", "src\CarutiFlow.Domain.Handler\CarutiFlow.Domain.Handler.csproj", "{19F03931-EC2A-413B-B9B1-5B194E738408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF966594-925C-43A5-AA3C-24981C9B185D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF966594-925C-43A5-AA3C-24981C9B185D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF966594-925C-43A5-AA3C-24981C9B185D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF966594-925C-43A5-AA3C-24981C9B185D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6CA298-63BC-4B3F-8ABC-9DCC2D4C13C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6CA298-63BC-4B3F-8ABC-9DCC2D4C13C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6CA298-63BC-4B3F-8ABC-9DCC2D4C13C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6CA298-63BC-4B3F-8ABC-9DCC2D4C13C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D072F9E-9438-4FBB-97F8-8E6A7F4B3ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D072F9E-9438-4FBB-97F8-8E6A7F4B3ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D072F9E-9438-4FBB-97F8-8E6A7F4B3ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D072F9E-9438-4FBB-97F8-8E6A7F4B3ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9027B414-6F5F-4E41-A459-AC80E3F0DA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9027B414-6F5F-4E41-A459-AC80E3F0DA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9027B414-6F5F-4E41-A459-AC80E3F0DA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9027B414-6F5F-4E41-A459-AC80E3F0DA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F03931-EC2A-413B-B9B1-5B194E738408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F03931-EC2A-413B-B9B1-5B194E738408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F03931-EC2A-413B-B9B1-5B194E738408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F03931-EC2A-413B-B9B1-5B194E738408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF966594-925C-43A5-AA3C-24981C9B185D} = {8E1F52AF-4621-44E9-AEE8-695C4BDAF768}
+		{6E6CA298-63BC-4B3F-8ABC-9DCC2D4C13C0} = {8E1F52AF-4621-44E9-AEE8-695C4BDAF768}
+		{5D072F9E-9438-4FBB-97F8-8E6A7F4B3ED8} = {8E1F52AF-4621-44E9-AEE8-695C4BDAF768}
+		{9027B414-6F5F-4E41-A459-AC80E3F0DA31} = {8E1F52AF-4621-44E9-AEE8-695C4BDAF768}
+		{19F03931-EC2A-413B-B9B1-5B194E738408} = {8E1F52AF-4621-44E9-AEE8-695C4BDAF768}
+	EndGlobalSection
+EndGlobal

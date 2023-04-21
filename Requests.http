@@ -1,0 +1,6 @@
+﻿POST http://localhost:5000/notifications HTTP/1.1
+Content-Type: application/json
+
+{
+  "WorkflowId": "2320B255-DFED-4A02-A7BD-F8C4427B3F9A"
+}
